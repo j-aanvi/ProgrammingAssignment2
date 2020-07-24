@@ -1,13 +1,15 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makecachematrix is a variable that stores the fucntion;which initially creates a matrix 
 
 makeCacheMatrix <- function(data,x,y)
 {
    mydata<-matrix(data,x,y)
-    
-## Write a short comment describing this function
+   ##crates a matrix for the given data
+   
+   
+## cachesolve is a vaiable that stores a fucntion that returns a inverse matrix
 
      cacheSolve <- function(mydata) 
      {
@@ -17,4 +19,5 @@ makeCacheMatrix <- function(data,x,y)
      
       }
          return(cacheSolve(mydata))
+         ## returns inverse of matrix to the global function
 }
